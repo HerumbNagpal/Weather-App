@@ -1,0 +1,120 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0%;
+    width: 100vw;
+    
+    background-color: aliceblue;
+}
+
+.q{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.weatherBg{
+    background-image: url("https://wallpaperaccess.com/full/1540016.jpg");
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction : column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.inp{
+    height: 8vh;
+    width: 40vh;
+    border-radius: 17px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.btn{
+    color: aliceblue;
+    background-color:rgb(13, 9, 223);
+    height: 7vh;
+    width: 40vh;
+    border-radius: 20px;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bolder;
+}
+
+.abc{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.xyz{
+    display: flex;
+    align-items: center;
+}
+.xyz p{
+    margin-right : 15px ;
+}
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 100%;
+    
+}   
+.dta{
+    border: 1px solid black;
+    height: 20vh;
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 9px;
+    box-shadow: black 1px 1px;
+    background-color: white;
+}
+
+.weatherIcon {
+    height: 9vh;
+    width: 9vh;
+}
+
+.live{
+    
+    color: black;
+    font-size: 5vh;
+    text-align: center;
+}
+
+.regionSearch
+{
+    margin: 5px;
+    font-size: 35px;
+    color: black;
+
+}
+
+.temp {
+    margin: 5px;
+    color: black;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.desc{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.foot{
+    text-align: center;
+    font-family: monospace;
+    color :rgb(129, 120, 120);
+}
