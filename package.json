@@ -1,7 +1,7 @@
 {
   "name": "wether-app",
   "version": "0.1.0",
-  "homepage": "https://herumbnagpal.github.io",
+  "homepage": "https://herumbnagpal.github.io/Weather-App",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
